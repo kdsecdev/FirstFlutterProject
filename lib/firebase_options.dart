@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDtx22oOIA6aFREwLNyaZ08NKAU7qESEkE',
+    apiKey: '',
     appId: '1:863666328369:web:f36c72643f1239872f1610',
     messagingSenderId: '863666328369',
     projectId: 'foodapp-5a57b',
@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCcmelSSBS6drqV82gsrWZQCxFZ11-IHR8',
+    apiKey: '-IHR8',
     appId: '1:863666328369:android:a040bde07451235d2f1610',
     messagingSenderId: '863666328369',
     projectId: 'foodapp-5a57b',
@@ -59,7 +59,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyB5JVz6yViZjWfnFqM1963J8LsmNfmfqIc',
+    apiKey: '',
     appId: '1:863666328369:ios:e98037a059ef01672f1610',
     messagingSenderId: '863666328369',
     projectId: 'foodapp-5a57b',
@@ -68,7 +68,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyB5JVz6yViZjWfnFqM1963J8LsmNfmfqIc',
+    apiKey: '',
     appId: '1:863666328369:ios:e98037a059ef01672f1610',
     messagingSenderId: '863666328369',
     projectId: 'foodapp-5a57b',
@@ -77,7 +77,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDtx22oOIA6aFREwLNyaZ08NKAU7qESEkE',
+    apiKey: '',
     appId: '1:863666328369:web:14b7854cbc6545d92f1610',
     messagingSenderId: '863666328369',
     projectId: 'foodapp-5a57b',
