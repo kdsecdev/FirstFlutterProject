@@ -7,7 +7,7 @@ class FirestoreService {
   FirebaseFirestore.instance.collection('orders');
 
 //save orders to db
-  Future<void> saveOrder(String receipt) async {
+  Future<void> saveOrderToDatabase(String receipt) async {
     await orders.add({
       'date': DateTime.now(),
       'order': receipt,

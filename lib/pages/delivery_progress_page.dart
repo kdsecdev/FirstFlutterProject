@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:foodapp/components/my_receipt.dart';
-import 'package:foodapp/service/database/firestore.dart';
+import 'package:foodapp/models/restaurant.dart';
+import 'package:foodapp/services/database/firestore.dart';
+import 'package:provider/provider.dart';
 
 class DeliveryProgressPage extends StatefulWidget {
   const DeliveryProgressPage({super.key});
@@ -20,6 +22,7 @@ class DeliveryProgressPage extends StatefulWidget {
 
     // if we get to this page , save the order to the firestoredb
     String receipt = context.read<Restaurant>().displayCartReceipt();
+    db.saveOrderToDatabase(receipt);
   }
 
   @override
